@@ -1,0 +1,20 @@
+:root{
+  --background-color: #fff;
+  --primary:#4f3acf;
+  --secundary:#0c2026;
+  --text:#5f5f5f;
+  --border:
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, button{
+    font-family: 'inter', sans-serif;
+}
+h1{ 
+   
+}
