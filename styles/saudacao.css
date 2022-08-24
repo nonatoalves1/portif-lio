@@ -1,0 +1,38 @@
+.saudacao{
+ 
+  height: calc(100vh - 4rem);
+  display:flex;
+  align-items: center;
+
+}
+.dev-info h1{
+    font-size: 3rem;
+}
+.dev-info h1 span{
+    color: var(--primary);
+}
+.dev-info p{
+  max-width: 27.5rem;
+  font-size: 1.25rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  color: var(--text);
+}
+  .dev-info a{
+    display: block;
+    background-color: var(--primary);
+    color: var(--background) ;
+
+    width: 16.75rem;
+    padding: 1rem;
+    border-radius: 8px;
+
+    text-align: center;
+    text-decoration: none;
+    transition:filter 0.5s;
+    
+  }
+  .dev-info a:hover{
+filter: brightness(125%);
+  }
+  
