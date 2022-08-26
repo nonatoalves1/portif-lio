@@ -3,6 +3,7 @@
   --primary:#4f3acf;
   --secondary:#0c2026;
   --text:#5f5f5f;
+  --text-secondary:#c1c1c1;
   --border:#b8b8b8;
   --link:#333;
 }
@@ -30,4 +31,39 @@ main{
   margin: 0 auto;
   max-width: calc(1136px + 2rem) ;
 }
+h2{
+  font-size: 2.5rem;
+
+}
+h2 span {
+  color: var(--primary);
+}
+p{
+  color: var(--text);
+}
    
+section{
+  border-top: 1px solid var(--border);
+  padding: 4.5rem 0;
+}
+ p.descricao{
+ 
+  font-size: 1.25rem;
+  margin-top: 2,5rem;
+  margin-bottom: 4rem;
+  color: var(--text);
+}
+a.button{
+  background-color: var(--primary);
+  color: var(--background);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  text-decoration: none;
+  transition:filter 0.5s;
+}
+a.button:hover{
+  filter: brightness(125%);
+}

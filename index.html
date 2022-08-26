@@ -8,14 +8,16 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Source+Code+Pro:wght@600&display=swap"
+    
+       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Source+Code+Pro:wght@600&display=swap"
         rel="stylesheet">
 
 
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/saudacao.css">
+    <link rel="stylesheet" href="./styles/techs.css">
+    <link rel="stylesheet" href="./styles/contatos.css">
     <title>&ltraimundooliveira/&gt</title>
 </head>
 
@@ -29,20 +31,87 @@
         </nav>
     </header>
     <main>
-        <div class="saudacao">
+        <section class="saudacao">
             <div class="dev-info">
                 <h1>Oi, eu sou o <span> Raimundo Oliveira</span>.</h1>
-                <p>
+                <p class="descricao" >
                     Este é meu portfólio onde mostro o melhor
                     do meu trabalho como desenvolvedor web.
                 </p>
-                <a href="#">Conheça meu trabalho</a>
+                <a class="button" href="#">Conheça meu trabalho</a>
             </div>
             <div class="imagem">
                 <img src="img/me.png" alt="Eu sou o Raimundo Oliveira">
 
             </div>
+        </section>
+        <section>
+            
+            <h2>Minhas<span>techs</span>.</h2>
+           
+            <div class="lista-techs">
+                <div class="card">
+                    <h3>Html</h3>
+                    <img src="./img/html.png" alt="Html logo">
+                    <p>
+                        Uma linguagem de marcação poderosa para a criação de páginas
+                        web presente em todo o desenvolvimento de sites.
+                    </p>
+                    </div>
+                    <div class="card">
+                    <h3>CSS</h3>
+                    <img src="./img/css.png" alt=" CSS logo">
+                    <p>
+                        As famosas folhas de estilo que sempre acompanham nosso As famosas folhas de estilo que sempre
+                        acompanham nosso HTML para deixar nossas páginas bonitas e responsivas.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Javascript</h3>
+                    <img src="./img/javascript.png" alt="Javascript logo">
+                    <p>
+                        A principal linguagem de programação do desenvolvimento web
+                        e a queridinha dos devs, está sempre presente para o que der e vier.
+                    </p>
+                    </div>
+
+                    <div class="card">
+                    <h3>React</h3>
+                    <img src="./img/react.png" alt="React logo">
+                    <p>
+                        A famosa biblioteca de criação de aplicações web poderosas
+                        feita pela Meta. Esta ferramenta mudou o jeito de criar sites.
+                    </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section>
+            <h2>Vamos trabalhar <span> juntos</span>.</h2>
+            <p class="descricao">
+                Entre em contato comigo através das seguintes maneiras 
+                para que possamos fazer algo incrível juntos!
+            </p>
+            <div class="contatos">
+            <a class="button linkedin" href="https://linkedin.com/in/Raimundo Oliveira"target="_blank">
+                <img src="./img/linkedin.svg" alt="linkedin">
+                in/Raimundo Oliveira
+
+            </a>
+            <a class="button github" href="https://github.com/nonatoalves1" target="_blank"> 
+                <img src="./img/github.svg" alt="github"> 
+                Raimundo Oliveira
+            </a>
+            <a class="button gmail" href="mailto:raimundoalves7608@gmail.com" target="_blank">
+                <img src="./img/gmail.svg" alt="gmail">
+                Raimundo7608
+            </a>
+
         </div>
+        </section>
     </main>
 
 </body>
