@@ -6,6 +6,7 @@
   --text-secondary:#c1c1c1;
   --border:#b8b8b8;
   --link:#333;
+  scroll-behavior: smooth;
 }
  @media screen and( max-width: 1080px) {
   :root{
@@ -66,4 +67,11 @@ a.button{
 }
 a.button:hover{
   filter: brightness(125%);
+}
+footer p{
+  display: flex;
+  justify-content: center;
+}
+footer p{
+  font-size: 1rem;
 }
